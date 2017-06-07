@@ -24,4 +24,10 @@ Having Kitematic installed on MacOSS:
 * Start Kitematic;
 * Select the container (panel on left with the title **Container**) that contains the folder that you shared using Samba;
 
-http://imgur.com/a/ndCGo
+![Image of Panel on Docker](http://i.imgur.com/UmJBqzb.png)
+
+* Click on the Settings tab and then the select the tab below called Hostname/Ports
+
+![Image of Settings panel on Docker](http://i.imgur.com/lWmWiUz.png)
+
+* Now, we add the ports 137, 138, 139 and 445 and redirects it to the same port on **localhost**.
